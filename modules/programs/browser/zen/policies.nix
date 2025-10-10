@@ -78,6 +78,9 @@
       blocked_install_message = "Addon is not added in the nix config";
       installation_mode = "blocked";
     };
+    "{d634138d-c276-4fc8-924b-40a0ea21d284}" = {
+      installation_mode = "allowed";
+    };
     "uBlock0@raymondhill.net" = {
       private_browsing = true;
       default_area = "navbar";

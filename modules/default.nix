@@ -41,13 +41,14 @@ in
     ./programs/cli/btop
     ./programs/media/discord
     ./programs/media/spicetify
-    # ./programs/media/youtube-music
+    # ./programs/media/youtube-music 
     # ./programs/media/thunderbird
     # ./programs/media/obs-studio
     ./programs/media/mpv
     ./programs/misc/tlp
     ./programs/misc/thunar
     ./programs/misc/lact # GPU fan, clock and power configuration
+    ./programs/misc/onepassword # Password Management
   ]
   ++ lib.optional (vars.games == true) ./core/games.nix;
 }

@@ -388,6 +388,7 @@ in
                   autoclicker = pkgs.callPackage ./scripts/autoclicker.nix { };
                 in
                 [
+
                   # Keybinds help menu
                   "$mainMod, question, exec, ${./scripts/keybinds.sh}"
                   "$mainMod, slash, exec, ${./scripts/keybinds.sh}"
