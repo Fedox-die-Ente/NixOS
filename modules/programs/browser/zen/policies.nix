@@ -99,12 +99,6 @@
       installation_mode = "force_installed";
       install_url = "https://addons.mozilla.org/firefox/downloads/latest/600-sound-volume/latest.xpi";
     };
-    "addon@darkreader.org" = {
-      private_browsing = true;
-      # default_area = "navbar";
-      installation_mode = "force_installed";
-      install_url = "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi";
-    };
     "sponsorBlocker@ajay.app" = {
       private_browsing = true;
       default_area = "menupanel";
@@ -129,51 +123,6 @@
     };
   };
   "3rdparty".Extensions = {
-    "addon@darkreader.org" = {
-      enabled = true;
-      automation = {
-        enabled = true;
-        behavior = "OnOff";
-        mode = "system";
-      };
-      detectDarkTheme = true;
-      enabledByDefault = true;
-      changeBrowserTheme = false;
-      enableForProtectedPages = true;
-      fetchNews = true;
-      syncSitesFixes = true;
-      previewNewDesign = true;
-      # previewNewestDesign = true; # TODO: test
-
-      # Catppuccin mocha theme
-      /*
-        theme = {
-          mode = 1;
-          brightness = 100;
-          contrast = 100;
-          grayscale = 0;
-          sepia = 0;
-          useFont = false;
-          fontFamily = "Open Sans";
-          textStroke = 0;
-          engine = "dynamicTheme";
-          stylesheet = "";
-          darkSchemeBackgroundColor = "#1e1e2e";
-          darkSchemeTextColor = "#cdd6f4";
-          lightSchemeBackgroundColor = "#eff1f5";
-          lightSchemeTextColor = "#4c4f69";
-          scrollbarColor = "";
-          selectionColor = "#585b70"; # For the light scheme: #acb0be
-          styleSystemControls = true;
-          lightColorScheme = "Default";
-          darkColorScheme = "Default";
-          immediateModify = false;
-        };
-      */
-
-      # enabledFor = [];
-      # disabledFor = [];
-    };
     "uBlock0@raymondhill.net" = {
       advancedSettings = [
         [
