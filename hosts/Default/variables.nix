@@ -20,7 +20,7 @@
   clock24h = true; # 24H or 12H clock in waybar
   locale = "en_GB.UTF-8"; # System locale
   timezone = "Europe/Berlin"; # Your timezone
-  kbdLayout = "gb"; # Keyboard layout
-  kbdVariant = "extd"; # Keyboard variant (can be empty)
-  consoleKeymap = "uk"; # TTY keymap
+  kbdLayout = "us";              # Keyboard layout (X11 / Wayland)
+  kbdVariant = "intl";           # English (US) International layout
+  consoleKeymap = "us";          # TTY keymap
 }
