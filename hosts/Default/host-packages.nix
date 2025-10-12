@@ -4,6 +4,8 @@
     obsidian
     protonvpn-gui # VPN
     github-desktop
+    jetbrains-toolbox
+    jetbrains.idea-ultimate
     # pokego # Overlayed
   ];
 }
