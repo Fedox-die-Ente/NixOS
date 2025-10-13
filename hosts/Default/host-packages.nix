@@ -6,6 +6,7 @@
     github-desktop
     jetbrains-toolbox
     jetbrains.idea-ultimate
+    nodejs_22
     # pokego # Overlayed
   ];
 }
